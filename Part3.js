@@ -14,9 +14,8 @@ $(document).ready(function() {
         $("#image").attr("src", "https://picsum.photos/id/1025/600/400");
     });
     $("#changeHref").click(function () {
-        $("#link").attr("href", "part2.html", function() {
-            alert("Link changed to Part 2");
-        });
+        $("#link").attr("href", "part2.html");
+        alert("Link changed to Part 2");
     });
 });
 $(document).ready(function() {
